@@ -632,3 +632,115 @@ body {
     height: 80px;
   }
 }
+
+@media (max-width: 639px) {
+  .main-header {
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(#FFE4C4, white);
+  }
+
+  .header-container {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 55px;
+  }
+
+  .header-list {
+    display: flex;
+    margin-top: 13px;
+    margin-left: 100px;
+    gap: 30px;
+  }
+
+  .logo-text {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: Lemon, sans-serif;
+  }
+
+  .header-navbar {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Ledger, sans-serif;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .main-description-container {
+    display: flex;
+    padding-top: 100px;
+  }
+
+  .main-list {
+    display: flex;
+    gap: 200px;
+  }
+
+  .my-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: #000 solid 3px;
+    margin-left: 100px;
+  }
+
+  .description-text {
+    margin-top: 10px;
+    width: 500px;
+    height: 180px;
+    padding-right: 50px;
+  }
+
+  .stack-container {
+    background: linear-gradient(white, #FFE4C4);
+    height: 260px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .stack-text {
+    text-align: center;
+    font-size: 24px;
+    font-family: Ledger, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .stack-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .fastapi {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nodejs {
+    width: 135px;
+    height: 83px;
+  }
+
+  .postgre {
+    width: 80px;
+    height: 83px;
+  }
+
+  .mongodb {
+    width: 128px;
+    height: 80px;
+  }
+
+  .docker {
+    width: 120px;
+    height: 101px;
+  }
+
+  .aiogram {
+    width: 80px;
+    height: 80px;
+  }
+}
