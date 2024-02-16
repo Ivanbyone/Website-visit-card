@@ -1,12 +1,12 @@
 @font-face {
   font-family: Lemon;
-  src: url(./fonts/Lemon-Regular.ttf);
+  src: url(fonts/Lemon-Regular.ttf);
   font-display: fallback;
 }
 
 @font-face {
   font-family: Ledger;
-  src: url(./fonts/Ledger-Regular.ttf);
+  src: url(fonts/Ledger-Regular.ttf);
   font-display: fallback;
 }
 
