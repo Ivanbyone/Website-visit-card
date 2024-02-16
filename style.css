@@ -647,15 +647,15 @@ body {
 
   .header-container {
     display: flex;
-    padding-left: 90px;
+    padding-left: 20px;
     padding-top: 55px;
   }
   
   .header-list {
     display: flex;
     margin-top: 0px;
-    margin-left: 50px;
-    gap: 40px;
+    margin-left: 30px;
+    gap: 20px;
   }
 
   .logo-text {
